@@ -31,6 +31,11 @@ left: 240px;
 font-size: 25px;
 }
 
+#txt-1,
+#txt-2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 #form-section{
     font-size: large;
