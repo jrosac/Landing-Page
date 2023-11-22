@@ -1,52 +1,48 @@
-body
-{
+body {
     background-color: #FFF8E1;
-    
+    margin: 0; 
 }
 
-#cbc
-{
+#cbc {
     padding: 15px;
     text-align: left;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica', sans-serif;
 }
 
-#bar{
+#bar {
     font-size: large;
-    position: relative;
-    top: -15px;
-    left: 1300px;
+    display: flex; 
+    justify-content: flex-end; 
+    padding: 10px;
 }
 
-th{
+th {
     border: 1px solid black;
     padding: 8px;
 }
 
-#desc-section{
-
-position: relative;
-top: -23px;
-left: 240px;
-font-size: 25px;
+#central {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
 }
 
-#txt-1,
-#txt-2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#desc-section,
+#form-section {
+    width: 45%; 
+    margin: 20px; 
 }
 
+#desc-section {
+    font-size: 25px;
+}
 
-#form-section{
+#form-section {
     font-size: large;
-    position: relative;
-    top: -430px;
-    left: 1300px;
-    width: 50px;
-    padding: 10px;
-
+    text-align: center; 
 }
 
-
-
-
+footer {
+    text-align: center; 
+    padding: 10px;
+}
